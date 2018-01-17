@@ -1,0 +1,204 @@
+ @import url(http://allfont.ru/allfont.css?fonts=europe-normal);
+*{
+  font-family: 'arial' sans-serif;
+}
+.container{
+	width: 1024px;
+	background-color:;
+}
+
+
+.header {
+	background-color: ;
+	height: 117px;
+}
+
+.align{
+	display: inline-block;	
+	vertical-align: top;
+}
+.logo{
+margin-left: -10px;
+margin-top: 10px;
+}
+
+.number {
+  text-align: right;
+  display: block;
+  margin-top: 35px;
+  margin-right: 5px;
+ float: right;
+ font-family: 'Europe Normal';
+ font-size: 18px;
+ color: #eb5017;
+}
+/*menu*/
+.headMenu {
+  display: block;
+  text-align: center;
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
+  background:#231f20; 
+  height: 44px;
+  width: 1002px;
+
+
+}
+.headMenu a {
+  text-decoration: none; 
+  background:#231f20; 
+  color:#fff; 
+  font-family: arial; 
+  line-height:44px; 
+  display: block; 
+  border-right: 1px solid #eb5017; 
+  -moz-transition: all 0.3s 0.01s ease; 
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#lastlink {
+  border-right: 1px solid #231f20; 
+}
+.headMenu a:hover {
+  background:#eb5017;
+  color: #ffffff;
+  text-decoration: none;
+}
+.headMenu a:active {
+  background:#eb5017;
+  color: #ffffff;
+  text-decoration: none;
+}
+.headMenu a:visited {
+  color: #ffffff;
+  text-decoration: none;	
+}
+.headMenu a:focus {
+  background:#eb5017;
+  color: #ffffff;
+  text-decoration: none;
+}
+.headMenu li {
+  float: left;
+}
+
+/*breadcrumb*/
+
+.breadcrumb{
+  margin-left: 8px;
+
+}
+#breadcrumb a{
+  font-size: 12px;
+  color: #231f20;
+  text-decoration: underline;
+}
+#breadcrumb li{
+  font-size: 12px;
+}
+
+.footer {
+
+  background-color:#231f20;
+  width: 1002px;
+  height: 56px;
+
+
+}
+.textfooter li{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 7px;
+}
+.textfooter {
+
+   margin-left: 25px;
+}
+.textfooter a{
+  color: #ffffff;
+  text-decoration: underline;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.content {
+margin-top: -5px;
+margin-left: 22px;
+margin-bottom: 112px;
+background-color: #f2f2f2;
+width: 652px;
+height: 380px;
+}
+.calculator {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+  margin-left: 97px;
+  color: #eb5017;  
+}
+.logicCalculator{
+  margin-top: 24px;
+}
+
+label {
+
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 30px;
+  font-size: 13px;
+  font-style: normal;
+}
+
+#data_oformlenia {
+  height: 23px;
+}
+.input_width {
+  display: inline-block;
+  width: 85px;
+  height: 23px;
+}
+
+#Popolnenie_vklada {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+#datepicker {
+ width: 85px;
+}
+ 
+.block1  {
+display: inline-block;
+width: 200px;
+margin-left: 20px;
+ }
+label span {
+  display: inline-block;
+  width: 180px;
+  text-align: right;
+ margin-right: 30px;
+
+}
+.solve {
+  display: inline-block;
+  background-color: #93d900;
+  border: 1px solid #f0ff34;
+  border-radius: 7px;
+  width: 103px;
+  height: 36px;
+  color: #395306;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3); 
+}
+.Result {
+  display: inline-block;
+  width: 40px;  
+  font-weight: bold;
+  font-size: 12px;
+  color: #395306;
+  margin-left: 25px;
+
+}
