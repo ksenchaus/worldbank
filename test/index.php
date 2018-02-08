@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>World bank</title>
-	<link rel="stylesheet" type="text/css" href="../test/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <title>World bank</title>
+  <link rel="stylesheet" type="text/css" href="../test/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../test/css/main.css">
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"> 
 
